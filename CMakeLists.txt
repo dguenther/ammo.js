@@ -38,7 +38,6 @@ set(EMCC_ARGS
   --llvm-lto 1
   --post-js glue.js
   --post-js ${AMMO_ONLOAD_FILE}
-  -O3
   -s ALLOW_MEMORY_GROWTH=${ALLOW_MEMORY_GROWTH}
   -s ALLOW_TABLE_GROWTH=1
   -s EXPORTED_FUNCTIONS=["_malloc"]
